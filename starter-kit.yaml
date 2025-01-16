@@ -1,0 +1,24 @@
+updatable: true
+export_paths:
+  - content
+  - config/statamic/assets.php
+  - config/statamic/bard_texstyle.php
+  - config/statamic/editions.php
+  - resources/blueprints
+  - resources/fieldsets
+  - resources/js
+  - resources/css
+  - resources/users/roles.yaml
+  - resources/views
+  - package.json
+  - tailwind.config.js
+dependencies:
+  jacksleight/statamic-bard-texstyle: ^3.4
+  mitydigital/statamic-two-factor: ^2.4
+  statamic/seo-pro: ^6.5
+modules:
+  ssg:
+    export_paths:
+      - config/statamic/ssg.php
+    dependencies:
+      statamic/ssg: ^3.1

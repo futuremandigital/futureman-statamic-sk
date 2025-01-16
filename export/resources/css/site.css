@@ -1,0 +1,50 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./viewTransition.css";
+
+[x-cloak] { display: none !important; }
+
+ /* max limit for 4K */
+.screen-max {
+  @apply w-full mx-auto max-w-[3840px];
+}
+
+/* FONT SETUP */
+/* @font-face {
+  font-family: 'Joyride ALT';
+  src: url('/resources/fonts/joyride/JoyrideALT.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+/* TYPOGRAPHY BASE STYLES */
+/* @layer base {
+  .h1, h1, .prose h1  {
+    @apply ;
+  }
+
+  .h2, h2, .prose h2 {
+    @apply ;
+  }
+
+  .h3, h3, .prose h3 {
+    @apply ;
+  }
+
+  .h4, h4, .prose h4 {
+    @apply ;
+  }
+
+  .h5, h5, .prose h5 {
+    @apply ;
+  }
+
+  .h6, h6, .prose h6 {
+    @apply ;
+  }
+
+  p, .prose p {
+    @apply ;
+  }
+} */

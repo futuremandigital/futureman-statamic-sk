@@ -1,0 +1,14 @@
+title: 'Content Blocks'
+fields:
+  -
+    handle: content_blocks
+    field:
+      type: replicator
+      display: 'Content Blocks'
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            new_set:
+              display: 'New Set'
+              fields: {  }

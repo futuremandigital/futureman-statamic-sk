@@ -1,0 +1,24 @@
+{
+    "name": "futuremandigital/futureman-statamic-starter-kit",
+    "extra": {
+        "statamic": {
+            "name": "Futureman Statamic Starter Kit",
+            "description": "A Futureman boilerplate, complete with our in house Fluid spacing library, and Tailwind clamp plugin, designed specifcally to jumpstart your fluid development process."
+        },
+        "laravel": {
+            "providers": [
+                "Futuremandigital\\FuturemanStatamicStarterKit\\ServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Futuremandigital\\FuturemanStatamicStarterKit\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    }
+}
