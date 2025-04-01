@@ -11,7 +11,6 @@ export_paths:
   - resources/users/roles.yaml
   - resources/views
   - package.json
-  - tailwind.config.js
 dependencies:
   jacksleight/statamic-bard-texstyle: ^3.4
   mitydigital/statamic-two-factor: ^2.4

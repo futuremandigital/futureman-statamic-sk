@@ -1,7 +1,13 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-@import "./viewTransition.css";
+@import 'tailwindcss';
+@import './viewTransition.css' layer(utilities);
+
+@plugin 'futureman-tailwind-clamp-plugin';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  @import 'futureman-tailwind-clamp-spacing/futuremanClampSpacing.css';
+  --spacing-om: clamp(2.1875rem, 1.0308rem + 4.9351vw, 12.875rem);
+}
 
 [x-cloak] { display: none !important; }
 
