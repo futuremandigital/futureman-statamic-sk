@@ -18,6 +18,6 @@
         "@tailwindcss/vite": "^4.0.17",
         "alpinejs": "^3.14.8",
         "futureman-tailwind-clamp-plugin": "^1.0.2",
-        "futureman-tailwind-clamp-spacing": "^1.0.6"
+        "futureman-tailwind-clamp-spacing": "^2.0.0"
     }
 }
