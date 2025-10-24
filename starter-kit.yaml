@@ -13,7 +13,6 @@ export_paths:
   - package.json
 dependencies:
   jacksleight/statamic-bard-texstyle: ^3.4
-  mitydigital/statamic-two-factor: ^2.4
   statamic/seo-pro: ^6.5
 modules:
   ssg:
