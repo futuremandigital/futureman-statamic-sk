@@ -12,8 +12,11 @@ export_paths:
   - resources/views
   - package.json
 dependencies:
+  cboxdk/statamic-mcp: ^0.10.0
   jacksleight/statamic-bard-texstyle: ^3.4
   statamic/seo-pro: ^6.5
+dependencies_dev:
+  laravel/boost: ^1.8
 modules:
   ssg:
     export_paths:
